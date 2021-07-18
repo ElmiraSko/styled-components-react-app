@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: gray;
 }
 
 code {
@@ -14,4 +15,7 @@ code {
 
 h3 {
   text-align: center;
+}
+pre {
+  color: rgb(10, 10, 10);
 }

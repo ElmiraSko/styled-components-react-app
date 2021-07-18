@@ -1,7 +1,7 @@
 .main {
-    margin: 50px auto;
-    width: 600px;
-    color: gray;    
+    margin: 20px auto 50px auto;
+    width: 600px; 
+    color: gray;  
 }
 .header, .footer {
     text-align: center;

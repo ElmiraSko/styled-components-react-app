@@ -70,8 +70,8 @@ export default App;
 
 const About = () => 
 <>
-<h3>Как стилизовать компоненты </h3>
-<p style={{textAlign:'center'}}>Разбираемся на примерах с сайта:<br/>
-https://reactdev.ru/libs/styled-components</p>
+  <h3>Как стилизовать компоненты </h3>
+  <p style={{textAlign:'center'}}>Разбираемся с помощью сайта:<br/>
+  https://reactdev.ru/libs/styled-components</p>
 </>
 

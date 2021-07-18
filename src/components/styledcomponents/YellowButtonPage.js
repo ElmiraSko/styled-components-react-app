@@ -42,7 +42,7 @@ export default function YellowButtonPage() {
                         return ( <br/>
                             &lt;&gt; <br/>
                             &nbsp; &lt;StyledButton primary&gt; // атрибут primary меняет цвет кнопки<br/>
-                            &nbsp;&nbsp;&nbsp; YellowButton // название кнопки 'зашито' в коде<br/>
+                            &nbsp;&nbsp;&nbsp; YellowButton <br/>
                             &nbsp; &lt;/StyledButton&gt; <br/><br/>
 
                             &nbsp; &lt;StyledButton&gt; <br/>
