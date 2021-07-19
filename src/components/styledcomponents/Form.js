@@ -16,6 +16,7 @@ const Input = styled.input.attrs((props) =>
     ({  
         type: props.type,
         placeholder: props.placeholder,
+        inputHeight: props.inputHeight || '30px',
     }))`  
     font-family: Verdana; 
     padding: 0.2em 0.5em;
@@ -24,7 +25,7 @@ const Input = styled.input.attrs((props) =>
     border-radius: 4px;
     outline: none;
     width: 280px;
-    height: 30px;
+    height: ${props => props.inputHeight};
     margin: 0.7em;
     &:-webkit-autofill {
         -webkit-box-shadow: inset 0 0 0 50px #fff; /* Цвет фона автозаполнения*/
@@ -57,7 +58,7 @@ export default function Form() {
 return (
     <>       
     <StForm>
-        <Input type='text' placeholder='Firstname' />
+        <Input type='text' placeholder='Firstname' inputHeight='60px' />
         <Input type='text' placeholder='Lastname' />
         <Input type='password' placeholder='Password' />
         <Button />

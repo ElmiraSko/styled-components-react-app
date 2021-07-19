@@ -1,5 +1,5 @@
 import React from 'react';
-import {AnimatedButton, BaseButton} from './Buttons';
+import { AnimatedButton, BaseButton } from './Buttons';
 
 export default function AnimatedButtonPage() {
     return(
@@ -56,7 +56,7 @@ export default function AnimatedButtonPage() {
                 `;     <br/>           
                 export &#123; BaseButton, AnimatedButton &#125;; <br/><br/>
                 <hr/>
-                Использование компонентов BaseButton и AnimatedButton в другом компоненте, 
+                Использование компонентов BaseButton и AnimatedButton в другом компоненте, <br/>
                 например, на этой странице: <br/><br/>
                 &lt;BaseButton&gt; <br/>
                 &nbsp;&nbsp; BaseButton <br/>
@@ -72,7 +72,7 @@ export default function AnimatedButtonPage() {
             </BaseButton>
             <AnimatedButton> 
                 Animated button
-            </AnimatedButton>             
+            </AnimatedButton>           
         </div>           
     )
 }

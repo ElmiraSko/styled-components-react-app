@@ -55,6 +55,12 @@ export default function YellowButtonPage() {
                         &nbsp;  &lt;YellowButton /&gt; <br/>             
                 </pre>
                 <YellowButton />
+                <hr/>
+                <span>
+                Важно определить стилизованные компоненты вне метода рендеринга, 
+                иначе он будет воссоздаваться при каждом проходе рендеринга. <br/>
+                (https://styled-components.com/docs/basics#passed-props)
+                </span>
         </div> 
     )
 }

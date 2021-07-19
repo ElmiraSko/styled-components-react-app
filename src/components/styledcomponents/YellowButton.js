@@ -36,7 +36,7 @@ return (
             YellowButton
         </StyledButton>
 
-        <StyledButton >
+        <StyledButton>
             Button
         </StyledButton>            
     </>        

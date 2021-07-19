@@ -63,7 +63,7 @@ export default function Yellow2ButtonPage() {
                 <hr/>
                 Использование компонента Yellow2Button в другом компоненте, например, на этой странице: <br/><br/>
                 &lt;Yellow2Button buttonTitle="На главную"&gt; <br/>
-                &nbsp;&nbsp; Кнопка   &frasl;&frasl;дочерний компонент <br/>
+                &nbsp;&nbsp; Кнопка   &frasl;&frasl;дочерний элемент <br/>
                 &lt;/Yellow2Button &gt;    <br/>      
             </pre>
             <Link to="/" className='main-link'>

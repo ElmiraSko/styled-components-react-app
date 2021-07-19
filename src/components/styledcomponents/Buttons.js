@@ -1,5 +1,4 @@
 import styled, {keyframes} from 'styled-components';
-// import BaseButton from './BaseButton';
 
 const BaseButton = styled.button`
 font-size: 1rem;
@@ -48,4 +47,4 @@ const AnimatedButton = styled(BaseButton)`
   animation: ${changingTheColor} 2s linear infinite alternate;
   `;
   
-export {AnimatedButton, BaseButton};
+export { AnimatedButton, BaseButton };
